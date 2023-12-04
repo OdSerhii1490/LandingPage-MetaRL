@@ -81,6 +81,7 @@ header {
   --about-present-font-size: 21px;
   --about-info-font-size: 16px;
   --about-button-font-size: 16px;
+  --artist-text-font-size: 79px;
   --nav-line-height: 100%;
   --title-hero-line-height: 118.852%;
   --subtitle-hero-line-height: 160%;
@@ -89,6 +90,7 @@ header {
   --about-present-info-line-height: 152.343%;
   --about-info-line-height: 160%;
   --about-button-line-height: 100%;
+  --artist-text-line-height: 111.392%;
 }
 
 .nav-item {
@@ -250,4 +252,17 @@ header {
   width: 2px;
   height: 124px;
   background-color: var(--decor-background-color);
+}
+
+.section-artist {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px 0;
+}
+.section-artist .section-artist__text {
+  font-family: var(--font-family-Audiowide);
+  font-size: var(--artist-text-font-size);
+  line-height: var(--artist-text-line-height);
+  color: var(--text-main-color-wt);
 }/*# sourceMappingURL=main.css.map */
