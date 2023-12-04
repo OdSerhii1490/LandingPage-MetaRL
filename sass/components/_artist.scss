@@ -1,12 +1,21 @@
-.section-artist {
+.artist-container {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 2px 0;
-  .section-artist__text {
+  .artist-container__text {
     font-family: var(--font-family-Audiowide);
     font-size: var(--artist-text-font-size);
     line-height: var(--artist-text-line-height);
-    color: var(--text-main-color-wt);
+    text-transform: uppercase;
+
+    &::after {
+      content: "ARTISTS";
+      margin-left: 394px;
+    }
+    &::before {
+      content: "ARTISTS";
+      margin-right: 394px;
+      margin-left: 130px;
+    }
   }
 }

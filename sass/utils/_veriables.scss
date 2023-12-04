@@ -13,9 +13,9 @@
   --button-background-color: #8dfd1b;
   --button-background-color-sel: #000000;
 
-  --about-button-border-color: solid 1px #8dfd1b;
+  --about-border-left-color: solid 2px #8dfd1b;
 
-  --decor-background-color: #8dfd1b;
+  --about-button-border-color: solid 1px #8dfd1b;
 
   --nav-font-size: 16px;
   --title-hero-font-size: 51px;
@@ -26,6 +26,7 @@
   --about-info-font-size: 16px;
   --about-button-font-size: 16px;
   --artist-text-font-size: 79px;
+  --names-artist-font-size: 16px;
 
   --nav-line-height: 100%;
   --title-hero-line-height: 118.852%;
@@ -36,4 +37,5 @@
   --about-info-line-height: 160%;
   --about-button-line-height: 100%;
   --artist-text-line-height: 111.392%;
+  --names-artist-line-height: 150%;
 }

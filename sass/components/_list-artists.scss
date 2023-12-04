@@ -1,0 +1,25 @@
+.section-artists {
+  padding: 127px 240px 238px 40px;
+}
+
+.artists-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+  .artists-list__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .artists-list__photo {
+    width: 245px;
+    height: 245px;
+    margin-bottom: 20px;
+  }
+  .artists-list__names {
+    font-family: var(--font-family-DM);
+    font-size: var(--names-artist-font-size);
+    line-height: var(--names-artist-line-height);
+  }
+}
