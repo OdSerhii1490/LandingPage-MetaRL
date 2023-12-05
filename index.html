@@ -206,7 +206,85 @@
           </ul>
         </div>
       </section>
+      <section class="section-story">
+        <div class="container container-story">
+          <h2 class="story-title">
+            MRL.<span class="story-title__subtitle">THE STORY.</span>
+          </h2>
+          <div class="block-content">
+            <div class="story-btn">
+              <button
+                onclick="showContent('founders')"
+                data-content="founders"
+                class="story-btn__button"
+              >
+                Our founders
+              </button>
+              <button
+                onclick="showContent('partners')"
+                data-content="partners"
+                class="story-btn__button"
+              >
+                Partners
+              </button>
+              <button
+                onclick="showContent('future')"
+                data-content="future"
+                class="story-btn__button"
+              >
+                The future
+              </button>
+            </div>
+            <div id="content" class="content">
+              <div id="foundersContent" class="story-content">
+                <img
+                  src="./images/story/story-our-min.png"
+                  alt="Our founders"
+                  class="story-image"
+                />
+                <div class="story-block">
+                  <div class="story-info">
+                    <p class="story-info__release">
+                      META record label was founded by Shaky Lake and Baky Hike
+                      in 2020 business accelerator.
+                    </p>
+                  </div>
+                  <ul class="story-block__list">
+                    <li class="story-block__item">
+                      <p class="story-block__info">
+                        Hac habitasse platea dictumst vestibulum rhoncus est.
+                        Sit amet dictum sit amet justo. Tortor aliquam nulla
+                        facilisi cras.
+                      </p>
+                    </li>
+                    <li class="story-block__item">
+                      <p class="story-block__info">
+                        Maecenas ultricies mi eget mauris pharetra. Sit amet
+                        consectetur adipiscing elit ut aliquam purus. Porta nibh
+                        venenatis cras sed felis. Aenean vel elit scelerisque
+                        mauris pellentesque pulvinar. Et malesuada fames ac
+                        turpis egestas sed tempus. Enim sit amet venenatis urna
+                        cursus eget.
+                      </p>
+                    </li>
+                    <li class="story-block__item">
+                      <p class="story-block__info">
+                        Maecenas ultricies mi eget mauris pharetra et ultrices.
+                        A condimentum vitae sapien pellentesque habitant morbi.
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div id="partnersContent" class="story-content"><p>HELLO</p></div>
+              <div id="futureContent" class="story-content"><p>WORLD</p></div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
     <footer></footer>
+
+    <script src="./js/story.js"></script>
   </body>
 </html>

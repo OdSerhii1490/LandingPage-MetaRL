@@ -63,6 +63,7 @@ header {
 
 :root {
   --background-main-color: #000000;
+  --story-background-color-blocks: #222222;
   --text-main-color-wt: #ffffff;
   --text-main-color-bk: #000000;
   --text-primary-color: #a8a8a8;
@@ -84,6 +85,9 @@ header {
   --about-button-font-size: 16px;
   --artist-text-font-size: 79px;
   --names-artist-font-size: 16px;
+  --story-title-font-size: 37px;
+  --story-release-font-size: 21px;
+  --story-info-font-size: 16px;
   --nav-line-height: 100%;
   --title-hero-line-height: 118.852%;
   --subtitle-hero-line-height: 160%;
@@ -94,6 +98,9 @@ header {
   --about-button-line-height: 100%;
   --artist-text-line-height: 111.392%;
   --names-artist-line-height: 150%;
+  --story-title-line-height: 122.932%;
+  --story-release-line-height: 152.343%;
+  --story-info-line-height: 160%;
 }
 
 .nav-item {
@@ -293,4 +300,86 @@ header {
   font-family: var(--font-family-DM);
   font-size: var(--names-artist-font-size);
   line-height: var(--names-artist-line-height);
+}
+
+.section-story {
+  padding: 0 240px 120px 40px;
+}
+
+.container-story {
+  display: flex;
+  flex-direction: column;
+}
+
+.story-title {
+  display: block;
+  text-align: center;
+  margin-bottom: 61px;
+  font-family: var(--font-family-Audiowide);
+  font-size: var(--story-title-font-size);
+  line-height: var(--story-title-line-height);
+}
+.story-title .story-title__subtitle {
+  color: var(--text-primary-color);
+}
+
+.block-content {
+  display: flex;
+}
+
+.story-btn {
+  display: flex;
+  flex-direction: column;
+}
+.story-btn .story-btn__button {
+  width: 282px;
+  padding: 25px 174px 31px 28px;
+  background-color: transparent;
+  color: inherit;
+}
+.story-btn .story-btn__button.active {
+  background-color: var(--story-background-color-blocks);
+  color: var(--text-title-color);
+}
+
+.content {
+  padding: 60px;
+  background-color: var(--story-background-color-blocks);
+}
+
+.founders {
+  display: flex;
+}
+
+.story-image {
+  width: 172px;
+  height: 253px;
+  margin-right: 40px;
+}
+
+.story-info {
+  padding: 1px 0 4px 22px;
+  margin-bottom: 28px;
+  border-left: var(--about-border-left-color);
+}
+.story-info .story-info__release {
+  font-family: var(--font-family-DM);
+  font-size: var(--story-release-font-size);
+  line-height: var(--story-release-line-height);
+  color: var(--text-title-color);
+}
+
+.story-block {
+  display: flex;
+  flex-direction: column;
+  width: 546px;
+  padding: 11px 17px 16px 0;
+}
+.story-block .story-block__item:not(:last-child) {
+  margin-bottom: 18px;
+}
+.story-block .story-block__info {
+  font-family: var(--font-family-Inter);
+  font-size: var(--story-info-font-size);
+  line-height: var(--story-info-line-height);
 }/*# sourceMappingURL=main.css.map */

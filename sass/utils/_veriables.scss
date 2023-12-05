@@ -1,5 +1,6 @@
 :root {
   --background-main-color: #000000;
+  --story-background-color-blocks: #222222;
 
   --text-main-color-wt: #ffffff;
   --text-main-color-bk: #000000;
@@ -27,6 +28,9 @@
   --about-button-font-size: 16px;
   --artist-text-font-size: 79px;
   --names-artist-font-size: 16px;
+  --story-title-font-size: 37px;
+  --story-release-font-size: 21px;
+  --story-info-font-size: 16px;
 
   --nav-line-height: 100%;
   --title-hero-line-height: 118.852%;
@@ -38,4 +42,7 @@
   --about-button-line-height: 100%;
   --artist-text-line-height: 111.392%;
   --names-artist-line-height: 150%;
+  --story-title-line-height: 122.932%;
+  --story-release-line-height: 152.343%;
+  --story-info-line-height: 160%;
 }

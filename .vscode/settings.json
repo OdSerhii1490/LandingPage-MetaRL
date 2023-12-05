@@ -10,5 +10,6 @@
       "format": "compressed",
       "savePath": "/css"
     }
-  ]
+  ],
+  "liveServer.settings.useLocalIp": false
 }
