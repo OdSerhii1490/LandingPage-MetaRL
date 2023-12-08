@@ -1,8 +1,9 @@
-.artist-container {
+.artist-block {
   display: flex;
   align-items: center;
   justify-content: center;
-  .artist-container__text {
+  margin-bottom: 127px;
+  .artist-block__text {
     font-family: var(--font-family-Audiowide);
     font-size: var(--artist-text-font-size);
     line-height: var(--artist-text-line-height);
@@ -17,5 +18,27 @@
       margin-right: 394px;
       margin-left: 130px;
     }
+  }
+}
+
+.artists-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+  .artists-list__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .artists-list__photo {
+    width: 245px;
+    height: 245px;
+    margin-bottom: 20px;
+  }
+  .artists-list__names {
+    font-family: var(--font-family-DM);
+    font-size: var(--names-artist-font-size);
+    line-height: var(--names-artist-line-height);
   }
 }

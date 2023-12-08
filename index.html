@@ -91,7 +91,7 @@
           </div>
         </div>
       </section>
-      <section class="section-about">
+      <section class="section section-about">
         <div class="container container-about">
           <div class="about-release">
             <h2 class="about-release__title">WAVE NFT</h2>
@@ -110,7 +110,6 @@
                 partners.
               </p>
             </div>
-
             <ul class="about-block__list">
               <li class="about-block__item">
                 <p class="about-block__info">
@@ -134,18 +133,15 @@
                 </p>
               </li>
             </ul>
-
             <a href="" class="about-block__button">Get one on OpenSea</a>
           </div>
         </div>
       </section>
-      <section>
-        <div class="container artist-container">
-          <h2 class="artist-container__text">ARTISTS</h2>
-        </div>
-      </section>
-      <section class="section-artists">
+      <section class="section section-artists">
         <div class="container">
+          <div class="artist-block">
+            <h2 class="artist-block__text">ARTISTS</h2>
+          </div>
           <ul class="artists-list">
             <li class="artists-list__item">
               <img
@@ -206,7 +202,7 @@
           </ul>
         </div>
       </section>
-      <section class="section-story">
+      <section class="section section-story">
         <div class="container container-story">
           <h2 class="story-title">
             MRL.<span class="story-title__subtitle">THE STORY.</span>
@@ -218,21 +214,21 @@
                 data-content="founders"
                 class="story-btn__button"
               >
-                Our founders
+                <p class="story-btn__text">Our founders</p>
               </button>
               <button
                 onclick="showContent('partners')"
                 data-content="partners"
                 class="story-btn__button"
               >
-                Partners
+                <p class="story-btn__text">Partners</p>
               </button>
               <button
                 onclick="showContent('future')"
                 data-content="future"
                 class="story-btn__button"
               >
-                The future
+                <p class="story-btn__text">The future</p>
               </button>
             </div>
             <div id="content" class="content">
@@ -280,6 +276,39 @@
               <div id="futureContent" class="story-content"><p>WORLD</p></div>
             </div>
           </div>
+        </div>
+      </section>
+
+      <section class="section section-roadmap">
+        <div class="container container-roadmap">
+          <div class="roadmap-title">
+            <h2 class="roadmap-title__title">Roadmap</h2>
+          </div>
+
+          <ul class="roadmap-list">
+            <li class="roadmap-list__item">
+              <div class="roadmap-block">
+                <p class="roadmap-block__number">1</p>
+                <p class="roadmap-block__subtitle">Phase 1 - completed</p>
+                <p class="roadmap-block__title">Spring 2022 - pre launch</p>
+              </div>
+              <div class="roadmap-infoblock">
+                <p class="roadmap-infoblock__text">Website 1.2</p>
+                <p class="roadmap-infoblock__text">
+                  Discord community promotion
+                </p>
+                <p class="roadmap-infoblock__text">MINTING WAVE NFTs</p>
+              </div>
+              <div>
+                <p>
+                  WAVE NFTs will be 100% pre-minted and launched as an OpenOcean
+                  collection
+                </p>
+              </div>
+            </li>
+            <li></li>
+            <li></li>
+          </ul>
         </div>
       </section>
     </main>
