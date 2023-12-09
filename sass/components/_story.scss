@@ -20,17 +20,13 @@
   display: flex;
   flex-direction: column;
   .story-btn__button {
-    background-color: transparent;
-    color: inherit;
-    padding: 25px 134px 31px 28px;
-  }
-  .story-btn__text {
-    display: block;
+    text-align: left;
     font-family: var(--font-family-DM);
     font-size: var(--story-button-font-size);
     line-height: var(--story-button-line-height);
-    width: 120px;
-    text-align: left;
+    background-color: transparent;
+    color: inherit;
+    padding: 25px 134px 31px 28px;
   }
 }
 .content {

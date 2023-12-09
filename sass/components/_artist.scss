@@ -1,6 +1,8 @@
+.section-artists {
+  overflow: hidden;
+}
 .artist-block {
   display: flex;
-  align-items: center;
   justify-content: center;
   margin-bottom: 127px;
   .artist-block__text {
@@ -16,7 +18,7 @@
     &::before {
       content: "ARTISTS";
       margin-right: 394px;
-      margin-left: 130px;
+      margin-left: 350px;
     }
   }
 }

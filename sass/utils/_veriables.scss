@@ -14,8 +14,9 @@
   --button-background-color: #8dfd1b;
   --button-background-color-sel: #000000;
 
-  --about-border-left-color: solid 2px #8dfd1b;
-  --about-button-border-color: solid 1px #8dfd1b;
+  --about-border-left-color: 2px solid #8dfd1b;
+  --about-button-border-color: 1px solid #8dfd1b;
+  --roadmap-number-border-color: 1px solid #8dfd1b;
 
   --nav-font-size: 16px;
   --title-hero-font-size: 51px;
@@ -31,6 +32,11 @@
   --story-title-font-size: 37px;
   --story-release-font-size: 21px;
   --story-info-font-size: 16px;
+  --roadmap-text-font-size: 38px;
+  --roadmap-subtitle-font-size: 8px;
+  --roadmap-title-font-size: 16px;
+  --roadmap-options-text-font-size: 11px;
+  --roadmap-statistics-text-font-size: 11px;
 
   --nav-line-height: 100%;
   --title-hero-line-height: 118.852%;
@@ -46,4 +52,9 @@
   --story-title-line-height: 122.932%;
   --story-release-line-height: 152.343%;
   --story-info-line-height: 160%;
+  --roadmap-text-line-height: 119.697%;
+  --roadmap-subtitle-line-height: 150%;
+  --roadmap-title-line-heght: 173.29%;
+  --roadmap-options-text-line-height: 290.909%;
+  --roadmap-statistics-text-line-heght: 232.727%;
 }

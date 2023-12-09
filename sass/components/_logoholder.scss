@@ -1,0 +1,13 @@
+.section-logoholder {
+  padding: 0;
+}
+.logoholder-list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1160px;
+  &__item {
+    &:not(:last-child) {
+      margin-right: 150px;
+    }
+  }
+}
