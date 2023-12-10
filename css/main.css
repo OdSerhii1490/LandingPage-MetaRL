@@ -392,10 +392,9 @@ header {
 }
 
 .section-roadmap {
-  z-index: 1;
   display: flex;
   padding: 360px 80px 240px 80px;
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/roadmap/back-roadmap-min.png);
+  background-image: url(../../images/roadmap/back-roadmap-min.png);
   background-repeat: no-repeat;
 }
 
