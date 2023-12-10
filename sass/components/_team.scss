@@ -1,0 +1,23 @@
+.section-team {
+  padding: 0 141px 235px 139px;
+  overflow: hidden;
+}
+.team-block {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 129px;
+  &__text {
+    font-family: var(--font-family-Audiowide);
+    font-size: var(--team-text-font-size);
+    line-height: var(--team-text-line-height);
+    text-transform: uppercase;
+    &::after {
+      content: "TEAM";
+      margin-left: 255px;
+    }
+    &::before {
+      content: "TEAM";
+      margin-right: 255px;
+    }
+  }
+}
