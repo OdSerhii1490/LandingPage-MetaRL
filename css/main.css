@@ -107,6 +107,8 @@ header {
   --team-name-font-size: 21px;
   --team-status-font-size: 11px;
   --team-description-font-size: 12px;
+  --join-title-font-size: 51px;
+  --join-text-font-size: 16px;
   --nav-line-height: 100%;
   --title-hero-line-height: 118.852%;
   --subtitle-hero-line-height: 160%;
@@ -133,6 +135,8 @@ header {
   --team-name-line-height: 132.03%;
   --team-status-line-height: 109.091%;
   --team-description-line-height: 160%;
+  --join-title-line-height: 118.852%;
+  --join-text-line-height: 160%;
 }
 
 .nav-item {
@@ -670,4 +674,54 @@ header {
   height: 36px;
   background-color: var(--text-main-color-wt);
   flex-shrink: 0;
+}
+
+.section-join {
+  padding: 0 137px 118px 136px;
+}
+
+.container-join {
+  display: flex;
+}
+
+.join-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.join-block__title {
+  font-family: var(--font-family-Audiowide);
+  font-size: var(--join-title-font-size);
+  line-height: var(--join-title-line-height);
+  margin-bottom: 34px;
+}
+.join-block__subtitle {
+  color: var(--text-title-color);
+}
+.join-block__text {
+  display: block;
+  width: 345px;
+  font-family: var(--font-family-Inter);
+  font-size: var(--join-text-font-size);
+  line-height: var(--join-text-line-height);
+  margin-bottom: 35px;
+}
+.join-block__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 213px;
+  padding: 14px 31px 13px 32px;
+  background-color: var(--button-background-color);
+  color: var(--text-main-color-bk);
+}
+.join-block__image {
+  width: 20px;
+  height: 20px;
+  margin-right: 9px;
+}
+
+.join-block-image .join-block-image__image {
+  width: 584px;
+  height: 584px;
 }/*# sourceMappingURL=main.css.map */
