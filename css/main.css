@@ -156,21 +156,21 @@ header {
 .navigate {
   display: flex;
 }
-.navigate .navigate__logo {
+.navigate__logo {
   margin-right: 20px;
 }
-.navigate .navigate__image {
+.navigate__image {
   width: 123px;
   height: 32px;
 }
-.navigate .navigate__list {
+.navigate__list {
   display: flex;
   align-items: center;
 }
-.navigate .navigate__item:not(:last-child) {
+.navigate__item:not(:last-child) {
   margin-right: 20px;
 }
-.navigate .navigate__link {
+.navigate__link {
   font-family: var(--font-family-DM);
   font-size: var(--nav-font-size);
   line-height: var(--nav-line-height);
@@ -180,10 +180,10 @@ header {
 .social {
   display: flex;
 }
-.social .social__item:not(:last-child) {
+.social__item:not(:last-child) {
   margin-right: 12px;
 }
-.social .social__link {
+.social__link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -191,7 +191,7 @@ header {
   height: 36px;
   background-color: #fff;
 }
-.social .social__image {
+.social__image {
   width: 20px;
   height: 20px;
 }
@@ -206,20 +206,20 @@ header {
   padding: 21.38px 19px 0 77px;
   justify-content: center;
 }
-.block-title .block-title__title {
+.block-title__title {
   font-family: var(--font-family-Audiowide);
   font-size: var(--title-hero-font-size);
   line-height: var(--title-hero-line-height);
   margin-bottom: 43px;
 }
-.block-title .block-title__subtitle {
+.block-title__subtitle {
   font-family: var(--font-family-Inter);
   font-size: var(--subtitle-hero-font-size);
   line-height: var(--subtitle-hero-line-height);
   width: 340px;
   margin-bottom: 115px;
 }
-.block-title .block-title__button {
+.block-title__button {
   font-family: var(--font-family-DM);
   font-size: var(--button-title-font-size);
   line-height: var(--button-title-line-height);
@@ -228,7 +228,7 @@ header {
   background-color: var(--button-background-color);
 }
 
-.block-img .block-img__image {
+.block-img__image {
   width: 870px;
   height: 653px;
 }
@@ -240,13 +240,13 @@ header {
 .about-release {
   margin-right: 150px;
 }
-.about-release .about-release__title {
+.about-release__title {
   font-family: var(--font-family-Audiowide);
   font-size: var(--about-title-font-size);
   line-height: var(--about-title-line-height);
   margin-left: 66px;
 }
-.about-release .about-release__subtitle {
+.about-release__subtitle {
   font-family: var(--font-family-Audiowide);
   font-size: var(--about-title-font-size);
   line-height: var(--about-title-line-height);
@@ -254,7 +254,7 @@ header {
   width: 361px;
   margin-left: 66px;
 }
-.about-release .about-release__image {
+.about-release__image {
   width: 360px;
   height: 360px;
 }
@@ -262,15 +262,15 @@ header {
 .about-block {
   width: 580px;
 }
-.about-block .about-block__item:not(:last-child) {
+.about-block__item:not(:last-child) {
   margin-bottom: 18px;
 }
-.about-block .about-block__info {
+.about-block__info {
   font-family: var(--font-family-Inter);
   font-size: var(--about-info-font-size);
   line-height: var(--about-info-line-height);
 }
-.about-block .about-block__button {
+.about-block__button {
   display: flex;
   justify-content: center;
   font-family: var(--font-family-DM);
@@ -289,7 +289,7 @@ header {
   padding: 1px 12px 5px 22px;
   border-left: var(--about-border-left-color);
 }
-.about-info .about-info__present {
+.about-info__present {
   font-family: var(--font-family-DM);
   font-size: var(--about-present-font-size);
   line-height: var(--about-present-info-line-height);
@@ -305,17 +305,17 @@ header {
   justify-content: center;
   margin-bottom: 127px;
 }
-.artist-block .artist-block__text {
+.artist-block__text {
   font-family: var(--font-family-Audiowide);
   font-size: var(--artist-text-font-size);
   line-height: var(--artist-text-line-height);
   text-transform: uppercase;
 }
-.artist-block .artist-block__text::after {
+.artist-block__text::after {
   content: "ARTISTS";
   margin-left: 394px;
 }
-.artist-block .artist-block__text::before {
+.artist-block__text::before {
   content: "ARTISTS";
   margin-right: 394px;
   margin-left: 350px;
@@ -326,18 +326,18 @@ header {
   flex-wrap: wrap;
   gap: 60px;
 }
-.artists-list .artists-list__item {
+.artists-list__item {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-.artists-list .artists-list__photo {
+.artists-list__photo {
   width: 245px;
   height: 245px;
   margin-bottom: 20px;
 }
-.artists-list .artists-list__names {
+.artists-list__names {
   font-family: var(--font-family-DM);
   font-size: var(--names-artist-font-size);
   line-height: var(--names-artist-line-height);
@@ -368,7 +368,7 @@ header {
   display: flex;
   flex-direction: column;
 }
-.story-btn .story-btn__button {
+.story-btn__button {
   text-align: left;
   font-family: var(--font-family-DM);
   font-size: var(--story-button-font-size);
@@ -398,7 +398,7 @@ header {
   margin-bottom: 28px;
   border-left: var(--about-border-left-color);
 }
-.story-info .story-info__release {
+.story-info__release {
   font-family: var(--font-family-DM);
   font-size: var(--story-release-font-size);
   line-height: var(--story-release-line-height);
@@ -410,7 +410,7 @@ header {
   flex-direction: column;
   width: 546px;
 }
-.story-block .story-block__item:not(:last-child) {
+.story-block__item:not(:last-child) {
   margin-bottom: 18px;
 }
 .story-block .story-block__info {
@@ -565,16 +565,16 @@ header {
 .qustions-blocktitle {
   margin-right: 220px;
 }
-.qustions-blocktitle .qustions-blocktitle__title {
+.qustions-blocktitle__title {
   font-family: var(--font-family-Audiowide);
   font-size: var(--questions-title-font-size);
   line-height: var(--questions-title-line-height);
   margin-bottom: 51px;
 }
-.qustions-blocktitle .qustions-blocktitle__subtitle {
+.qustions-blocktitle__subtitle {
   color: var(--text-primary-color);
 }
-.qustions-blocktitle .qustions-blocktitle__image {
+.qustions-blocktitle__image {
   width: 360px;
   height: 360px;
 }
@@ -678,11 +678,17 @@ header {
   margin-right: 12px;
 }
 .team-social-list__link {
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 36px;
   height: 36px;
   background-color: var(--text-main-color-wt);
   flex-shrink: 0;
+}
+.team-social-list__image {
+  width: 20px;
+  height: 20px;
 }
 
 .section-join {
@@ -730,7 +736,7 @@ header {
   margin-right: 9px;
 }
 
-.join-block-image .join-block-image__image {
+.join-block-image__image {
   width: 584px;
   height: 584px;
 }
@@ -751,11 +757,11 @@ header {
   justify-content: space-between;
   margin-right: 64px;
 }
-.footer-logo .footer-logo__image {
+.footer-logo__image {
   width: 103px;
   height: 24px;
 }
-.footer-logo .footer-logo__text {
+.footer-logo__text {
   font-family: var(--font-family-DM);
   font-size: var(--footer-text-font-size);
   line-height: var(--footer-text-line-height);
@@ -770,11 +776,11 @@ header {
   gap: 29px;
   margin-right: 100px;
 }
-.footer-link .sourcelink-list .sourcelink-list__link {
+.footer-link .sourcelink-list__link {
   font-family: var(--font-family-DM);
   font-size: var(--footer-source-font-size);
   line-height: var(--footer-source-line-height);
-  color: var(--text-main-color-wt);
+  color: inherit;
 }
 .footer-link .licencelink-list {
   display: flex;
@@ -782,11 +788,11 @@ header {
   gap: 29px;
   margin-right: 100px;
 }
-.footer-link .licencelink-list .licencelink-list__link {
+.footer-link .licencelink-list__link {
   font-family: var(--font-family-DM);
   font-size: var(--footer-licence-font-size);
   line-height: var(--footer-licence-line-height);
-  color: var(--text-main-color-wt);
+  color: inherit;
 }
 .footer-link .infotext-list {
   display: flex;
@@ -794,7 +800,7 @@ header {
   gap: 29px;
   margin-right: 100px;
 }
-.footer-link .infotext-list .infotext-list__text {
+.footer-link .infotext-list__text {
   font-family: var(--font-family-DM);
   font-size: var(--footer-info-font-size);
   line-height: var(--footer-info-line-height);
@@ -802,12 +808,18 @@ header {
 .footer-link .soclink-list {
   display: flex;
 }
-.footer-link .soclink-list .soclink-list__item:not(:last-child) {
+.footer-link .soclink-list__item:not(:last-child) {
   margin-right: 12px;
 }
 .footer-link .soclink-list .soclink-list__link {
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 36px;
   height: 36px;
   background-color: var(--text-main-color-wt);
+}
+.footer-link .soclink-list__image {
+  width: 20px;
+  height: 20px;
 }/*# sourceMappingURL=main.css.map */

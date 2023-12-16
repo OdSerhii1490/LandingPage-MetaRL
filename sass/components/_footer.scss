@@ -12,11 +12,11 @@
   justify-content: space-between;
   margin-right: 64px;
 
-  .footer-logo__image {
+  &__image {
     width: 103px;
     height: 24px;
   }
-  .footer-logo__text {
+  &__text {
     font-family: var(--font-family-DM);
     font-size: var(--footer-text-font-size);
     line-height: var(--footer-text-line-height);
@@ -29,11 +29,11 @@
     flex-direction: column;
     gap: 29px;
     margin-right: 100px;
-    .sourcelink-list__link {
+    &__link {
       font-family: var(--font-family-DM);
       font-size: var(--footer-source-font-size);
       line-height: var(--footer-source-line-height);
-      color: var(--text-main-color-wt);
+      color: inherit;
     }
   }
   .licencelink-list {
@@ -41,11 +41,11 @@
     flex-direction: column;
     gap: 29px;
     margin-right: 100px;
-    .licencelink-list__link {
+    &__link {
       font-family: var(--font-family-DM);
       font-size: var(--footer-licence-font-size);
       line-height: var(--footer-licence-line-height);
-      color: var(--text-main-color-wt);
+      color: inherit;
     }
   }
   .infotext-list {
@@ -53,7 +53,7 @@
     flex-direction: column;
     gap: 29px;
     margin-right: 100px;
-    .infotext-list__text {
+    &__text {
       font-family: var(--font-family-DM);
       font-size: var(--footer-info-font-size);
       line-height: var(--footer-info-line-height);
@@ -61,16 +61,22 @@
   }
   .soclink-list {
     display: flex;
-    .soclink-list__item {
+    &__item {
       &:not(:last-child) {
         margin-right: 12px;
       }
     }
     .soclink-list__link {
-      display: block;
+      display: flex;
+      align-items: center;
+      justify-content: center;
       width: 36px;
       height: 36px;
       background-color: var(--text-main-color-wt);
+    }
+    &__image {
+      width: 20px;
+      height: 20px;
     }
   }
 }

@@ -70,10 +70,16 @@
     }
   }
   &__link {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 36px;
     height: 36px;
     background-color: var(--text-main-color-wt);
     flex-shrink: 0;
+  }
+  &__image {
+    width: 20px;
+    height: 20px;
   }
 }

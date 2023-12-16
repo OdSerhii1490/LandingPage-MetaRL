@@ -3,13 +3,13 @@
 }
 .about-release {
   margin-right: 150px;
-  .about-release__title {
+  &__title {
     font-family: var(--font-family-Audiowide);
     font-size: var(--about-title-font-size);
     line-height: var(--about-title-line-height);
     margin-left: 66px;
   }
-  .about-release__subtitle {
+  &__subtitle {
     font-family: var(--font-family-Audiowide);
     font-size: var(--about-title-font-size);
     line-height: var(--about-title-line-height);
@@ -17,24 +17,24 @@
     width: 361px;
     margin-left: 66px;
   }
-  .about-release__image {
+  &__image {
     width: 360px;
     height: 360px;
   }
 }
 .about-block {
   width: 580px;
-  .about-block__item {
+  &__item {
     &:not(:last-child) {
       margin-bottom: 18px;
     }
   }
-  .about-block__info {
+  &__info {
     font-family: var(--font-family-Inter);
     font-size: var(--about-info-font-size);
     line-height: var(--about-info-line-height);
   }
-  .about-block__button {
+  &__button {
     display: flex;
     justify-content: center;
     font-family: var(--font-family-DM);
@@ -52,7 +52,7 @@
   margin-bottom: 27px;
   padding: 1px 12px 5px 22px;
   border-left: var(--about-border-left-color);
-  .about-info__present {
+  &__present {
     font-family: var(--font-family-DM);
     font-size: var(--about-present-font-size);
     line-height: var(--about-present-info-line-height);

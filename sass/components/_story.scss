@@ -19,7 +19,7 @@
 .story-btn {
   display: flex;
   flex-direction: column;
-  .story-btn__button {
+  &__button {
     text-align: left;
     font-family: var(--font-family-DM);
     font-size: var(--story-button-font-size);
@@ -45,7 +45,7 @@
   padding: 1px 0 4px 22px;
   margin-bottom: 28px;
   border-left: var(--about-border-left-color);
-  .story-info__release {
+  &__release {
     font-family: var(--font-family-DM);
     font-size: var(--story-release-font-size);
     line-height: var(--story-release-line-height);
@@ -56,7 +56,7 @@
   display: flex;
   flex-direction: column;
   width: 546px;
-  .story-block__item {
+  &__item {
     &:not(:last-child) {
       margin-bottom: 18px;
     }

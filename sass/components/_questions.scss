@@ -6,16 +6,16 @@
 }
 .qustions-blocktitle {
   margin-right: 220px;
-  .qustions-blocktitle__title {
+  &__title {
     font-family: var(--font-family-Audiowide);
     font-size: var(--questions-title-font-size);
     line-height: var(--questions-title-line-height);
     margin-bottom: 51px;
   }
-  .qustions-blocktitle__subtitle {
+  &__subtitle {
     color: var(--text-primary-color);
   }
-  .qustions-blocktitle__image {
+  &__image {
     width: 360px;
     height: 360px;
   }
