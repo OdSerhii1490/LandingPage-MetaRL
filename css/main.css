@@ -542,16 +542,19 @@ header {
 }
 
 .section-logoholder {
-  padding: 0;
+  padding: 0 240px 0 40px;
 }
 
 .logoholder-list {
   display: flex;
   flex-wrap: wrap;
-  width: 1160px;
+  justify-content: center;
+  gap: 150px;
 }
-.logoholder-list__item:not(:last-child) {
-  margin-right: 150px;
+.logoholder-list__image {
+  width: 250px;
+  fill: red;
+  stroke: #fff;
 }
 
 .section-questions {

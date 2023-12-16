@@ -1,13 +1,15 @@
 .section-logoholder {
-  padding: 0;
+  padding: 0 240px 0 40px;
 }
 .logoholder-list {
   display: flex;
   flex-wrap: wrap;
-  width: 1160px;
-  &__item {
-    &:not(:last-child) {
-      margin-right: 150px;
-    }
+  justify-content: center;
+  gap: 150px;
+
+  &__image {
+    width: 250px;
+    fill: red;
+    stroke: #fff;
   }
 }
