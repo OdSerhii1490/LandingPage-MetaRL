@@ -34,6 +34,10 @@
       font-size: var(--footer-source-font-size);
       line-height: var(--footer-source-line-height);
       color: inherit;
+      transition: all 0.2s;
+      &:hover {
+        color: var(--text-title-color);
+      }
     }
   }
   .licencelink-list {
@@ -46,6 +50,10 @@
       font-size: var(--footer-licence-font-size);
       line-height: var(--footer-licence-line-height);
       color: inherit;
+      transition: all 0.2s;
+      &:hover {
+        color: var(--text-title-color);
+      }
     }
   }
   .infotext-list {

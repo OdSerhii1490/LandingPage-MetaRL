@@ -25,6 +25,10 @@
     font-size: var(--nav-font-size);
     line-height: var(--nav-line-height);
     color: inherit;
+    transition: all 0.2s;
+    &:hover {
+      color: var(--text-title-color);
+    }
   }
 }
 .social {

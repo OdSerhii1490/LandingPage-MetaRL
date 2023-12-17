@@ -35,6 +35,7 @@
     line-height: var(--about-info-line-height);
   }
   &__button {
+    position: relative;
     display: flex;
     justify-content: center;
     font-family: var(--font-family-DM);
@@ -45,6 +46,20 @@
     padding: 10px 33px 16px 33px;
     margin-top: 36px;
     border: var(--about-button-border-color);
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 0;
+      height: 100%;
+      background-color: var(--button-background-color);
+      transition: all 2s ease;
+      z-index: -1;
+    }
+    &:hover:before {
+      width: 100%;
+    }
   }
 }
 .about-info {

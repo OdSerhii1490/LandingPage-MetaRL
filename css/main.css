@@ -175,6 +175,10 @@ header {
   font-size: var(--nav-font-size);
   line-height: var(--nav-line-height);
   color: inherit;
+  transition: all 0.2s;
+}
+.navigate__link:hover {
+  color: var(--text-title-color);
 }
 
 .social {
@@ -220,12 +224,26 @@ header {
   margin-bottom: 115px;
 }
 .block-title__button {
+  position: relative;
   font-family: var(--font-family-DM);
   font-size: var(--button-title-font-size);
   line-height: var(--button-title-line-height);
   width: 207px;
   padding: 17px 40px 27px 40px;
   background-color: var(--button-background-color);
+}
+.block-title__button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: all 2s ease;
+}
+.block-title__button:hover:before {
+  width: 100%;
 }
 
 .block-img__image {
@@ -271,6 +289,7 @@ header {
   line-height: var(--about-info-line-height);
 }
 .about-block__button {
+  position: relative;
   display: flex;
   justify-content: center;
   font-family: var(--font-family-DM);
@@ -281,6 +300,20 @@ header {
   padding: 10px 33px 16px 33px;
   margin-top: 36px;
   border: var(--about-button-border-color);
+}
+.about-block__button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: var(--button-background-color);
+  transition: all 2s ease;
+  z-index: -1;
+}
+.about-block__button:hover:before {
+  width: 100%;
 }
 
 .about-info {
@@ -784,6 +817,10 @@ header {
   font-size: var(--footer-source-font-size);
   line-height: var(--footer-source-line-height);
   color: inherit;
+  transition: all 0.2s;
+}
+.footer-link .sourcelink-list__link:hover {
+  color: var(--text-title-color);
 }
 .footer-link .licencelink-list {
   display: flex;
@@ -796,6 +833,10 @@ header {
   font-size: var(--footer-licence-font-size);
   line-height: var(--footer-licence-line-height);
   color: inherit;
+  transition: all 0.2s;
+}
+.footer-link .licencelink-list__link:hover {
+  color: var(--text-title-color);
 }
 .footer-link .infotext-list {
   display: flex;
